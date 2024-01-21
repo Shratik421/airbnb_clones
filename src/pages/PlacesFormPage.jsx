@@ -117,6 +117,7 @@ export default function PlacesFormPage() {
     }
   }
 
+  
   if (redirect) return <Navigate to={"/account/places"} />;
 
   function removePhoto(filename) {
